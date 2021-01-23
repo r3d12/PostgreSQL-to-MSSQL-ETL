@@ -23,7 +23,7 @@ def logHandler(email = []):
 
 
     #Email
-    body = "TXDC-SQL-01 DAB Nightly DATA Pull. Please Review Log for Errors"
+    body = "Nightly DATA Pull. Please Review Log for Errors"
     # Log in to server using secure context and send email
     msg = MIMEMultipart('alternative')
     msg['Subject'] = ' DATA PULL REPORT'
