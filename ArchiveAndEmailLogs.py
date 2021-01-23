@@ -55,7 +55,7 @@ def logHandler(email = []):
     msg.attach(part1)
     # Add attachment to message
     msg.attach(part)
-    s = smtplib.SMTP('smtp.vtaig.com')
+    s = smtplib.SMTP('mail_server')
     # s.send_message(msg)
     s.send_message(msg, to_addrs = msg.get_all('To'))
     s.close()
