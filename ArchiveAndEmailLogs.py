@@ -37,7 +37,7 @@ def logHandler(email = []):
     part1 = (MIMEText(body, "plain"))
 
 
-    # Open PDF file in binary mode
+    # Open log file in binary mode
     with open(filename, "rb") as attachment:
         # Add file as application/octet-stream
         # Email client can usually download this automatically as attachment
